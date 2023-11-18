@@ -7,5 +7,5 @@
     "auto-build": "npx nodemon --exec \"npm run build\" --ignore dist"
   },
   "author": "ZpAz",
-  "license": "ISC"
+  "license": "MIT"
 }

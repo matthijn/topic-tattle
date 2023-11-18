@@ -23,7 +23,7 @@ function buildPermissionElement() {
     const element = document.createElement("div")
     const s = element.style
     s.backgroundColor = "rgb(161, 18, 54)"
-    s.color = "white";
+    s.color = "white !important";
     s.width = "300px"
     s.borderRadius = "10px"
     s.position = "fixed"
@@ -33,6 +33,7 @@ function buildPermissionElement() {
     s.cursor = "pointer"
     s.padding = "20px";
     s.textAlign = "center"
+    s.boxShadow = "4px 4px 4px #ccc"
 
     element.innerHTML = "<h2>Topic Tattle</h2><p>Topic Tattle would like to send notifications</p>"
 
