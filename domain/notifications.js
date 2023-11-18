@@ -23,7 +23,7 @@ function buildPermissionElement() {
     const element = document.createElement("div")
     const s = element.style
     s.backgroundColor = "rgb(161, 18, 54)"
-    s.color = "white !important";
+    s.color = "white";
     s.width = "300px"
     s.borderRadius = "10px"
     s.position = "fixed"
@@ -35,7 +35,7 @@ function buildPermissionElement() {
     s.textAlign = "center"
     s.boxShadow = "4px 4px 4px #ccc"
 
-    element.innerHTML = "<h2>Topic Tattle</h2><p>Topic Tattle would like to send notifications</p>"
+    element.innerHTML = "<h2 style='color: white'>Topic Tattle</h2><p>Topic Tattle would like to send notifications</p>"
 
     element.addEventListener("click", async function() {
         await requestPermission()
