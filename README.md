@@ -4,7 +4,7 @@ Chrome browser extension for https://gatering.tweakers.net forum. When new messa
 ## Installation
 For now the extension is not available in the Chrome store. (So there are no automatic updates)
 
-Download the latest release from [here](https://github.com/matthijn/topic-tattle/releases/):
+Download the latest release from [here](https://github.com/matthijn/topic-tattle/releases/)
 
 - Navigate to chrome://extensions
 - Expand the Developer dropdown menu and click “Load Unpacked Extension”
